@@ -18,3 +18,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Expanded `.gitignore` with OS, IDE, and build artifact patterns
 - Rewrote the README's "Why this exists" section to lead with the project's origin story
+- Gitignored `.claude/settings.local.json` (per-machine Claude Code permissions)
