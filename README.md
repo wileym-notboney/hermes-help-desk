@@ -8,7 +8,11 @@ This repository contains architecture, templates, and a small dependency-free st
 
 ## Why this exists
 
-Email-to-ticket automation combines three risky boundaries:
+This started as a way to help manage tech support for family members who've had a harder time keeping up with new technology. Casual back-and-forth troubleshooting — texts, calls, drop-ins — was becoming a source of friction rather than help, and the existing help-desk tools were either too technical to hand off or too heavyweight to justify for a household. Since Hermes can already ingest email, a dedicated help account routed through Hermes into a Kanban board seemed like the natural fix: reports land as tickets I can triage on my own schedule, instead of pings I have to catch in real time.
+
+Full disclosure: I've been lurking in open source for ages without ever putting anything out there myself. This is my first public project, so go easy on the rough edges — feedback and PRs are welcome.
+
+Building that meant treating email-to-ticket automation like the risky system it is. It combines three risky boundaries:
 
 1. **Untrusted input:** email bodies, headers, links, quoted replies, and attachments may be attacker controlled.
 2. **External writes:** ticket creation and acknowledgement delivery have user-visible consequences.
