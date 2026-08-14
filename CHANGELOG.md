@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - CONTRIBUTING.md with contributor guidelines
 - GitHub Actions workflow to run the test suite on push/PR
 - Dependabot config for GitHub Actions version updates
+- `.claude/settings.json` with shared Claude Code plugin configuration
 
 ### Changed
 
